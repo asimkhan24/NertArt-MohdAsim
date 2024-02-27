@@ -1,0 +1,45 @@
+.trophy_logo{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.trophy_logo img{
+    height: 560px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 24px;
+
+}
+
+.content img{
+    height: 450px;
+}
+
+.content p, li{
+font-size: 15px;
+line-height: 18px;
+}
+
+@media screen and (max-width: 1050px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .trophy_logo{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .trophy_logo img{
+        height: 500px;
+
+    }
+    .content img{
+        height: auto;
+        width: 100%;
+    }
+}

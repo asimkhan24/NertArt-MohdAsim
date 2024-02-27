@@ -1,0 +1,33 @@
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social_links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+color: white;
+    background-color: rgb(239, 86, 86);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 750px) {
+    .social_links{
+        height: 200px;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+}

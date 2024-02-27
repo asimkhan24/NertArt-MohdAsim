@@ -1,0 +1,9 @@
+.nav_logo{
+    display: flex;
+    justify-content: center;
+    height:120px;
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+

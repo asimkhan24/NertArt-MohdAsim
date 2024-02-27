@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+body{
+font-family: "Tinos", serif;
+background-image: linear-gradient(rgb(255, 227, 227), rgb(255, 255, 172));
+}

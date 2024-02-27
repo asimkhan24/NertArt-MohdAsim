@@ -1,0 +1,20 @@
+.machines_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    border-bottom: 2px solid red;
+}
+
+.machines_container img{
+    height: 400px;
+}
+
+@media screen and (max-width: 1050px) {
+    .machines_container img{
+        height: auto;
+        width: 100%;
+    }
+    
+}
